@@ -28,6 +28,9 @@ Go to the "Getting Started" to get info on setting up a development Server
 # Blogs that Are alright
 https://www.simple-talk.com/dotnet/asp-net/introducing-single-sign-on-to-an-existing-asp-net-mvc-application/
 
+a decent description of OpenID, OAuth and SAML
+https://spin.atomicobject.com/2016/05/30/openid-oauth-saml/
+
 ## MSDN - Creating an ASP.Net app with OWIN
 https://blogs.msdn.microsoft.com/webdev/2014/03/28/owin-security-components-in-asp-net-openid-connect/
 

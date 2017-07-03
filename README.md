@@ -27,7 +27,7 @@ Go to the "Getting Started" to get info on setting up a development Server
 This is used for ResourceAuthorization
 https://github.com/IdentityModel/Thinktecture.IdentityModel
 
-
+in StartUp.cs.configureAuth(IAppBuilder app), the call to app.UseResourceAuthorization(IResourceAuthorizationManager) registers an IResourceAuthorizationManager that is used in the ResourceAuthorizeAttribute.  It calls a 'CheckAccessAsync' Extension Method on HttpContext or HttpRequestMessage.  These use the OwinContext.GetAuthorizationManager() to retrieve the registered IResourceAuthrizationManager, and call it's CheckAccessAsync.  This is an override that the applicaiton should provide to check the action and resource paramaters against the ClaimsPrinciple claims.  The ClaimsPrinciple is obtain by HttpCOntext.User, or by HttpRequestMessage.GetOwinContext().Authentication.User. 
 
 
 

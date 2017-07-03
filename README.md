@@ -23,6 +23,13 @@ https://developer.okta.com/
 
 Go to the "Getting Started" to get info on setting up a development Server
 
+# Thinktecture IdentityModel
+This is used for ResourceAuthorization
+https://github.com/IdentityModel/Thinktecture.IdentityModel
+
+
+
+
 
 
 # Blogs that Are alright
@@ -33,6 +40,11 @@ https://spin.atomicobject.com/2016/05/30/openid-oauth-saml/
 
 ## MSDN - Creating an ASP.Net app with OWIN
 https://blogs.msdn.microsoft.com/webdev/2014/03/28/owin-security-components-in-asp-net-openid-connect/
+
+## MSDN - OwinContext
+* The IAuthorizationManager: https://msdn.microsoft.com/en-us/library/microsoft.owin.security.iauthenticationmanager(v=vs.113).aspx
+
+
 
 
 
